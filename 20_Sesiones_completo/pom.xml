@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hgc.spring</groupId>
-	<artifactId>19_Seguridad</artifactId>
+	<artifactId>20_Sesiones_completo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>19_Seguridad</name>
-	<description>Ejemplo de integración de Spring Security</description>
+	<name>20_Sesiones_completo</name>
+	<description>Ejemplo de manejo de sesiones con Redis</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -69,6 +69,21 @@
 			<groupId>org.thymeleaf.extras</groupId>
 			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session-data-redis</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		
 
 	</dependencies>
 
